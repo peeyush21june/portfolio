@@ -1,12 +1,3 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: Hero.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
-*/
-
 import { m, LazyMotion, domAnimation } from "framer-motion";
 import HeroText from "../Components/HeroText";
 import HeroParticles from "../Components/Particles/HeroParticles";
