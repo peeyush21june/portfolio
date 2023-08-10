@@ -3,13 +3,18 @@ Welcome to my portfolio repository! This project showcases my skills using React
 
 
 <p align="center" >
+  <br>
+  <img src="C:\Users\piyus\OneDrive\Pictures\Screenshots\Screenshot (89).png" alt="wb" width="400">
+  <br>
+</p>
+<p>
   <a href="#features">Features</a> •
   <a href="#Files">Files</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
-<a href="">Try it out here</a> 
+<a href="https://peeyush21june.github.io/portfolio/">Try it out here</a> 
 </p>
 
 ## Features
