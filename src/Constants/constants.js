@@ -25,10 +25,7 @@ import {
   mongodbIcon,
   linuxIcon,
   pyIcon,
-  //viteIcon,
   nodeIcon,
-  //raspIcon,
-  //neoIcon,
   windowsIcon,
   pawsitivePrototype,
   calculator,
@@ -50,10 +47,7 @@ const media = {
   mongodbIcon,
   linuxIcon,
   pyIcon,
-  //viteIcon,
   nodeIcon,
-  //raspIcon,
-  //neoIcon,
   windowsIcon,
   avatar,
 };
@@ -106,22 +100,22 @@ const projects = [
     name: "Movie collection",
     description: 'Purpose is to store favourite movies with links from where we can watch. It make with use of HTML, CSS, JS, React.js, MongoDB, Express.js, Node.js.',
     image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    source_code_link: 'https://github.com/peeyush21june',
+    demo_link: '',
   },
   {
     name: 'Myntra-Clone',
     description: 'This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, JavaScript, React.js.',
     image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
+    source_code_link: 'https://github.com/peeyush21june/myntra_clone',
+    demo_link: '',
   },
   {
     name: 'Inventory Management',
     description: 'Inventory management system with user privilege and JWT authentication. •	Technical Skills: MongoDB and React.js.',
     image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
+    source_code_link: 'https://github.com/peeyush21june',
+    demo_link: '',
   },
 ];
 
@@ -184,7 +178,7 @@ const skills = [
     title: 'MySQL',
     icon: mysqlIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+      '',
   },
   {
     id: 'mongodb',
@@ -212,36 +206,15 @@ const skills = [
     title: 'Windows',
     icon: windowsIcon,
     description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+    '',
   },
-  // {
-  //   id: 'vite',
-  //   title: 'Vite',
-  //   icon: viteIcon,
-  //   description:
-  //     'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
-  // },
   
-  // {
-  //   id: 'neo',
-  //   title: 'Neo4j',
-  //   icon: neoIcon,
-  //   description:
-  //     'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  // },
-  // {
-  //   id: 'raspi',
-  //   title: 'Raspberry Pi',
-  //   icon: raspIcon,
-  //   description:
-  //     'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
-  // },
   {
     id: 'liux',
     title: 'Linux',
     icon: linuxIcon,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      '',
   },
 ];
 
