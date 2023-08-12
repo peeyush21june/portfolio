@@ -114,7 +114,7 @@ const projects = [
     description: 'This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, JavaScript, React.js.',
     image: pawsitivePrototype,
     source_code_link: 'https://github.com/peeyush21june/myntra_clone',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
+    demo_link: 'https://github.com/peeyush21june/myntra_clone',
   },
   {
     name: 'Inventory Management',
