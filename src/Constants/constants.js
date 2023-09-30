@@ -107,14 +107,14 @@ const projects = [
   {
     name: 'Myntra-Clone',
     description: 'This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, JavaScript, React.js.',
-    image: pawsitivePrototype,
+    image: myntra,
     source_code_link: 'https://github.com/peeyush21june/myntra_clone',
-    demo_link: 'https://github.com/peeyush21june/myntra_clone',
+    demo_link: '',
   },
   {
     name: 'Inventory Management',
     description: 'Inventory management system with user privilege and JWT authentication. •	Technical Skills: MongoDB and React.js.',
-    image: calculator,
+    image: inventory,
     source_code_link: 'https://github.com/peeyush21june',
     demo_link: '',
   },
