@@ -27,9 +27,10 @@ import {
   pyIcon,
   nodeIcon,
   windowsIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  myntra,
+  movie_collection,
+  calm_clock,
+  inventory,
   avatar,
 } from '../assets';
 
@@ -99,24 +100,31 @@ const projects = [
   {
     name: "Movie collection",
     description: 'Purpose is to store favourite movies with links from where we can watch. It make with use of HTML, CSS, JS, React.js, MongoDB, Express.js, Node.js.',
-    image: memoryGame,
+    image: movie_collection,
     source_code_link: 'https://github.com/peeyush21june',
     demo_link: '',
   },
   {
     name: 'Myntra-Clone',
     description: 'This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, JavaScript, React.js.',
-    image: pawsitivePrototype,
+    image: myntra,
     source_code_link: 'https://github.com/peeyush21june/myntra_clone',
     demo_link: '',
   },
   {
     name: 'Inventory Management',
     description: 'Inventory management system with user privilege and JWT authentication. •	Technical Skills: MongoDB and React.js.',
-    image: calculator,
+    image: inventory,
     source_code_link: 'https://github.com/peeyush21june',
     demo_link: '',
   },
+  {
+    name: 'Calm-Clock',
+    description: 'This clock will not show you time, also to-do list, reminder, calm sound & photo',
+    image: calm_clock,
+    source_code_link: '',
+    demo_link: ''
+  }
 ];
 
 const memoji = {
