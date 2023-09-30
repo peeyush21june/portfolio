@@ -1,12 +1,3 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (peeyush)
-   Author: Sara Echeverria
-   FileName: index.js
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
-*/
-
 // Logo
 import peeyushIcon from './logo/p1logo.png';
 
@@ -25,15 +16,14 @@ import linuxIcon from './tech/linux.png';
 //import viteIcon from './tech/vite.svg';
 import pyIcon from './tech/py.png';
 import nodeIcon from './tech/node.webp';
-//import neoIcon from './tech/neo.png';
-//import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import pawsitivePrototype from './projects/myntra.jpg';
-import calculator from './projects/Inventory-Management.jpg';
-import memoryGame from './projects/movie-collection.jpg';
+import myntra from './projects/myntra.jpg';
+import inventory from './projects/Inventory-Management.jpg';
+import movie_collection from './projects/movie-collection.jpg';
+import calm_clock from './projects/calm-clock.jpg';
 
 // Avatar
 import avatar from './avatar/profile.png';
@@ -57,9 +47,10 @@ export {
   //viteIcon,
   //neoIcon,
   //raspIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  myntra,
+  movie_collection,
+  inventory,
   avatar,
   peeyushIcon,
+  calm_clock
 };
