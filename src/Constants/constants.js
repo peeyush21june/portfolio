@@ -100,23 +100,24 @@ const projects = [
   {
     name: "Movie collection",
     description: 'Purpose is to store favourite movies with links from where we can watch. It make with use of HTML, CSS, JS, React.js, MongoDB, Express.js, Node.js.',
-    image: movie_collection,
-    source_code_link: 'https://github.com/peeyush21june',
-    demo_link: '',
+    image: memoryGame,
+    source_code_link: 'https://github.com/peeyush21june/',
+    demo_link: 'https://github.com/peeyush21june/',
   },
   {
     name: 'Myntra-Clone',
     description: 'This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, JavaScript, React.js.',
-    image: myntra,
+
+    image: pawsitivePrototype,
     source_code_link: 'https://github.com/peeyush21june/myntra_clone',
-    demo_link: '',
+    demo_link: 'https://github.com/peeyush21june/myntra_clone',
   },
   {
     name: 'Inventory Management',
     description: 'Inventory management system with user privilege and JWT authentication. •	Technical Skills: MongoDB and React.js.',
-    image: inventory,
-    source_code_link: 'https://github.com/peeyush21june',
-    demo_link: '',
+    image: calculator,
+    source_code_link: 'https://github.com/peeyush21june/',
+    demo_link: 'https://github.com/peeyush21june/',
   },
   {
     name: 'Calm-Clock',
