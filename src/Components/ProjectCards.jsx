@@ -114,18 +114,21 @@ const SectionWrapper = (Component, idName) =>
 
   const ProjectCard = ({ index, name, description, tags, image, source_code_link, demo_link }) => {
     return (
+    
       <motion.div
         variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
       >
+        1
         <Tilt
           options={{
             max: 40,
             scale: 1,
             speed: 450
           }}
-          className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full'
+          className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full '
           style={{ marginTop: '-120%' }}
           >
+          1.1
           <div
             className="relative w-full h-[180px]"
           >
@@ -134,9 +137,11 @@ const SectionWrapper = (Component, idName) =>
               alt={name}
               className="w-full h-full object-cover rounded-lg"
             />
+            
             <div
               className="absolute inset-0 flex justify-end m-3 card-img_hover"
             >
+              1.1.1
               <div
                 onClick={() => window.open
                 (source_code_link, "_blank")}
@@ -149,17 +154,20 @@ const SectionWrapper = (Component, idName) =>
                 />
               </div>
             </div>
+            
           </div>
-  
+          1.2
           <div className="mt-3">
             <h3 className="text-white font-bold text-[20px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px] leading-[18px]">{description}</p>
           </div>
+          1.3
           <div
             className="mt-2 flex flex-wrap gap-1"
           >
           </div>
-          <div 
+          
+          {/* <div 
             className="mt-3 flex justify-center items-center"
           >
             <a 
@@ -169,7 +177,7 @@ const SectionWrapper = (Component, idName) =>
             >
               See the Demo
             </a>
-          </div>
+          </div> */}
         </Tilt>
       </motion.div>
     )
@@ -178,7 +186,7 @@ const SectionWrapper = (Component, idName) =>
 const Works = () => {
   return (
     <>
-      <div className="w-full flex">
+      <div className="w-full flex ">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -186,7 +194,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex justify-item-center gap-70">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}

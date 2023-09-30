@@ -25,14 +25,12 @@ import {
   mongodbIcon,
   linuxIcon,
   pyIcon,
-  //viteIcon,
   nodeIcon,
-  //raspIcon,
-  //neoIcon,
   windowsIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  myntra,
+  movie_collection,
+  calm_clock,
+  inventory,
   avatar,
 } from '../assets';
 
@@ -50,10 +48,7 @@ const media = {
   mongodbIcon,
   linuxIcon,
   pyIcon,
-  //viteIcon,
   nodeIcon,
-  //raspIcon,
-  //neoIcon,
   windowsIcon,
   avatar,
 };
@@ -112,6 +107,7 @@ const projects = [
   {
     name: 'Myntra-Clone',
     description: 'This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, JavaScript, React.js.',
+
     image: pawsitivePrototype,
     source_code_link: 'https://github.com/peeyush21june/myntra_clone',
     demo_link: 'https://github.com/peeyush21june/myntra_clone',
@@ -123,6 +119,13 @@ const projects = [
     source_code_link: 'https://github.com/peeyush21june/',
     demo_link: 'https://github.com/peeyush21june/',
   },
+  {
+    name: 'Calm-Clock',
+    description: 'This clock will not show you time, also to-do list, reminder, calm sound & photo',
+    image: calm_clock,
+    source_code_link: '',
+    demo_link: ''
+  }
 ];
 
 const memoji = {
@@ -184,7 +187,7 @@ const skills = [
     title: 'MySQL',
     icon: mysqlIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+      '',
   },
   {
     id: 'mongodb',
@@ -212,36 +215,15 @@ const skills = [
     title: 'Windows',
     icon: windowsIcon,
     description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+    '',
   },
-  // {
-  //   id: 'vite',
-  //   title: 'Vite',
-  //   icon: viteIcon,
-  //   description:
-  //     'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
-  // },
   
-  // {
-  //   id: 'neo',
-  //   title: 'Neo4j',
-  //   icon: neoIcon,
-  //   description:
-  //     'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  // },
-  // {
-  //   id: 'raspi',
-  //   title: 'Raspberry Pi',
-  //   icon: raspIcon,
-  //   description:
-  //     'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
-  // },
   {
     id: 'liux',
     title: 'Linux',
     icon: linuxIcon,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      '',
   },
 ];
 
