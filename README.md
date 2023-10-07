@@ -14,7 +14,9 @@ Welcome to my portfolio repository! This project showcases my skills using React
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
-<a href="https://peeyush21june.github.io/portfolio/">Try it out here</a> 
+  (https://github.com/peeyush21june/portfolio/assets/78106366/99b3009f-a02c-4b7c-a16a-409f68fbd294)
+
+<a href="[https://peeyush21june.github.io/portfolio/](https://whoispeeyush.netlify.app/)">Try it out here</a> 
 </p>
 
 ## Features
