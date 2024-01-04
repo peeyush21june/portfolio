@@ -120,7 +120,7 @@ const projects = [
   },
   {
     name: 'Calm-Clock',
-    description: 'This clock will not show you time, also to-do list, reminder, calm sound & photo',
+    description: 'This clock will not only show you time, also to-do list, reminder, calm sound and photo & video functions are there',
     image: calm_clock,
     source_code_link: '',
     demo_link: ''
