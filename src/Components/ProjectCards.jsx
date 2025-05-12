@@ -101,8 +101,7 @@ const SectionWrapper = (Component, idName) =>
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} max-w-7xl mx-auto relative z-0 my-[-17%] w-[500%]`}
-        style={{ marginLeft: "-20%" }}
+        className={` max-w-7xl mx-auto relative`}
       >
         <span className='hash-span' id={idName}>
           &nbsp;
@@ -126,7 +125,7 @@ const SectionWrapper = (Component, idName) =>
             speed: 450
           }}
           className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full '
-          style={{ marginTop: '-120%' }}
+          // style={{ marginTop: '-120%' }}
           >
           
           <div
@@ -194,7 +193,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex justify-item-center gap-70">
+      <div className="flex justify-item-center">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}
