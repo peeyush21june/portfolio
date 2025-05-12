@@ -6,13 +6,13 @@ import ImageSlider from "../Components/elements/ImageSlider";
 
 const About = () => {
   return (
-    <div id="about" className="w-full flex justify-center overflow-hidden-web">
-      <div className="w-full xl:w-[70%] flex flex-col pb-16">
+    <div id="about" className="mx-auto px-12 py-10 w-full flex justify-center">
+      <div className="w-full flex flex-col">
         <div className="w-full">
           <SectionTitle title="ABOUT ME" subtitle="Introduction" />
         </div>
-        <div className="w-full flex flex-col-reverse sm:flex-row">
-          <div className="w-full md:w-[50%] md:h-full flex items-center mt-10">
+        <div className="w-full flex flex-col-reverse sm:flex-row gap-16 items-center justify-center">
+          <div className="w-full flex items-center md:w-[50%]">
             <LazyMotion features={domAnimation} strict>
               <m.p
                 initial={{ opacity: 0 }}

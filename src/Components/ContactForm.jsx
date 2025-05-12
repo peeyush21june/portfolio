@@ -41,13 +41,13 @@ const ContactForm = () => {
       <div>
         <h2
           style={{ fontFamily: "Morganite Bold, sans-serif" }}
-          className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
+          className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] rounded-bl-[0%] relative shadow-2xl"
         >
           <Typewriter words={["Let's get in touch!"]} loop={true} />
           &nbsp;
         </h2>
       </div>
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center py-8 px-4">
         <form
           id="contact_form"
           ref={form}
